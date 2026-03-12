@@ -22,6 +22,7 @@ LESSONS = {
     4: ("Agents & Tools",            "lessons.04_agents"),
     5: ("RAG",                       "lessons.05_rag"),
     6: ("LangGraph",                 "lessons.06_langgraph"),
+    7: ("Output Parsers",            "lessons.07_output_parsers"),
 }
 
 BANNER = """
