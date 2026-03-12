@@ -65,3 +65,4 @@ langchain-learning/
 
 - Python 3.10+
 - OpenAI API key
+- Dependencies: `langchain`, `langchain-openai`, `langchain-core`, `langchain-community`, `langchain-text-splitters`, `langgraph`, `python-dotenv`
