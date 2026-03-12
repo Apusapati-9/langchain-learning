@@ -23,6 +23,10 @@ LESSONS = {
     5: ("RAG",                       "lessons.05_rag"),
     6: ("LangGraph",                 "lessons.06_langgraph"),
     7: ("Output Parsers",            "lessons.07_output_parsers"),
+    8: ("Streaming",                 "lessons.08_streaming"),
+    9: ("Document Loaders",          "lessons.09_document_loaders"),
+   10: ("Multi-Agent Systems",       "lessons.10_multi_agent"),
+   11: ("Evaluation & Testing",      "lessons.11_evaluation"),
 }
 
 BANNER = """
