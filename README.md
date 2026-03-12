@@ -12,6 +12,7 @@ An interactive CLI app to learn core LangChain concepts through hands-on example
 | 4 | Agents & Tools | `@tool`, `create_react_agent` (LangGraph), custom tools |
 | 5 | RAG | Embeddings, `InMemoryVectorStore`, RAG chain, source citations, conversational RAG |
 | 6 | LangGraph | `StateGraph`, nodes & edges, conditional branching, message state, ReAct agent from scratch |
+| 7 | Output Parsers | `StrOutputParser`, `CommaSeparatedListOutputParser`, `JsonOutputParser`, `PydanticOutputParser`, `with_structured_output`, manual output fixing |
 
 ## Setup
 
@@ -58,7 +59,8 @@ langchain-learning/
     ├── 03_memory.py         # Lesson 3: Memory & Chat History
     ├── 04_agents.py         # Lesson 4: Agents & Tools
     ├── 05_rag.py            # Lesson 5: RAG
-    └── 06_langgraph.py      # Lesson 6: LangGraph
+    ├── 06_langgraph.py      # Lesson 6: LangGraph
+    └── 07_output_parsers.py # Lesson 7: Output Parsers
 ```
 
 ## Requirements
