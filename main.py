@@ -21,6 +21,7 @@ LESSONS = {
     3: ("Memory & Chat History",     "lessons.03_memory"),
     4: ("Agents & Tools",            "lessons.04_agents"),
     5: ("RAG",                       "lessons.05_rag"),
+    6: ("LangGraph",                 "lessons.06_langgraph"),
 }
 
 BANNER = """
