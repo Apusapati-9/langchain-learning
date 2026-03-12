@@ -17,6 +17,10 @@ An interactive CLI app to learn core LangChain concepts through hands-on example
 | 9 | Document Loaders | `TextLoader`, `CSVLoader`, `DirectoryLoader`, `RecursiveCharacterTextSplitter`, `CharacterTextSplitter`, `TokenTextSplitter` |
 | 10 | Multi-Agent Systems | Supervisor pattern, sequential handoffs, parallel fan-out agents, shared state |
 | 11 | Evaluation & Testing | LLM-as-judge, criteria scoring, pairwise A/B comparison, batch dataset evaluation |
+| 12 | Caching | `InMemoryCache`, `SQLiteCache`, latency comparison, cache hit rate |
+| 13 | Callbacks & Tracing | `BaseCallbackHandler`, token usage tracking, timing, logging, multi-callback |
+| 14 | LangChain + FastAPI | REST endpoints, streaming SSE, per-session chat memory, `httpx` tests |
+| 15 | LangChain + Databases | `SQLDatabase`, NL→SQL chain, read-only SQL agent with `create_react_agent` |
 
 ## Setup
 
@@ -68,12 +72,16 @@ langchain-learning/
     ├── 08_streaming.py      # Lesson 8: Streaming
     ├── 09_document_loaders.py # Lesson 9: Document Loaders
     ├── 10_multi_agent.py    # Lesson 10: Multi-Agent Systems
-    └── 11_evaluation.py     # Lesson 11: Evaluation & Testing
-└── data/                    # Sample files for Lesson 9
+    ├── 11_evaluation.py     # Lesson 11: Evaluation & Testing
+    ├── 12_caching.py        # Lesson 12: Caching
+    ├── 13_callbacks.py      # Lesson 13: Callbacks & Tracing
+    ├── 14_fastapi.py        # Lesson 14: LangChain + FastAPI
+    └── 15_databases.py      # Lesson 15: LangChain + Databases
+└── data/                    # Auto-generated sample files (gitignored)
 ```
 
 ## Requirements
 
 - Python 3.10+
 - OpenAI API key
-- Dependencies: `langchain`, `langchain-openai`, `langchain-core`, `langchain-community`, `langchain-text-splitters`, `langgraph`, `python-dotenv`
+- Dependencies: `langchain`, `langchain-openai`, `langchain-core`, `langchain-community`, `langchain-text-splitters`, `langgraph`, `python-dotenv`, `fastapi`, `uvicorn`, `httpx`
