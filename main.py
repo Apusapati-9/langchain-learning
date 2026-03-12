@@ -27,6 +27,10 @@ LESSONS = {
     9: ("Document Loaders",          "lessons.09_document_loaders"),
    10: ("Multi-Agent Systems",       "lessons.10_multi_agent"),
    11: ("Evaluation & Testing",      "lessons.11_evaluation"),
+   12: ("Caching",                   "lessons.12_caching"),
+   13: ("Callbacks & Tracing",       "lessons.13_callbacks"),
+   14: ("LangChain + FastAPI",       "lessons.14_fastapi"),
+   15: ("LangChain + Databases",     "lessons.15_databases"),
 }
 
 BANNER = """
